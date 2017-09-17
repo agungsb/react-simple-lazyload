@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import ReactSimpleLazyLoad from 'components/ReactSimpleLazyLoad'
+import { ReactSimpleLazyLoad as Image } from 'react-simple-lazyload';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +15,7 @@ class App extends Component {
       <div className="App">
         {images.map((image, key) =>
           <div style={{ height: 200, width: 200 }} key={key}>
-            <ReactSimpleLazyLoad full={image.full} tiny={image.tiny} style={{ width: '100%' }} />
+            <Image full={image.full} tiny={image.tiny} style={{ width: '100%' }} />
           </div>
         )}
       </div>
