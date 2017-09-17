@@ -5,7 +5,6 @@
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
-    "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.1",
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -20,7 +19,7 @@
     "chalk": "1.1.3",
     "css-loader": "0.28.4",
     "dotenv": "4.0.0",
-    "eslint": "4.4.1",
+    "eslint": "4.x",
     "eslint-config-react-app": "^2.0.0",
     "eslint-loader": "1.9.0",
     "eslint-plugin-flowtype": "2.35.0",
@@ -39,7 +38,7 @@
     "react": "^15.6.1",
     "react-dev-utils": "^4.0.1",
     "react-dom": "^15.6.1",
-    "react-simple-lazyload": "^0.1.6",
+    "react-simple-lazyload": "0.2.1",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
@@ -50,6 +49,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-eslint": "8",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
@@ -57,7 +57,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "NODE_ENV=production node scripts/build.js",
-    "lib": "NODE_ENV=production babel src/node_modules --out-dir lib --copy-files",
+    "lib": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files --plugins=add-module-exports,transform-runtime,transform-class-properties",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {

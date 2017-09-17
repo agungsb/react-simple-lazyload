@@ -1,7 +1,7 @@
 {
   "presets": [
     "env",
-    "react-app",
+    "react",
     "es2015"
   ],
   "plugins": [
