@@ -57,8 +57,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "NODE_ENV=production node scripts/build.js",
-    "lib-old": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files --plugins=add-module-exports,transform-runtime,transform-class-properties",
-    "lib": "NODE_ENV=production BABEL_ENV=production babel src/ReactSimpleLazyLoad --out-dir lib --copy-files --plugins=add-module-exports,transform-runtime,transform-class-properties",
+    "lib": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files --presets=es2015,react,stage-0 --plugins=add-module-exports,transform-class-properties",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
