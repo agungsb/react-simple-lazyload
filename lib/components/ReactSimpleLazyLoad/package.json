@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "react-simple-lazyload",
+  "main": "./ReactSimpleLazyLoad.js"
+ }
