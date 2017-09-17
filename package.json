@@ -57,7 +57,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "NODE_ENV=production node scripts/build.js",
-    "lib": "babel src/node_modules --out-dir lib --copy-files",
+    "lib": "babel src/node_modules --out-dir lib --presets=es2015,react,stage-0 --plugins=transform-runtime,transform-class-properties --copy-files",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
