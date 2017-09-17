@@ -1,6 +1,6 @@
 {
   "name": "react-simple-lazyload",
-  "version": "0.2.1",
+  "version": "0.2.5",
   "main": "./lib/index.js",
   "dependencies": {
     "autoprefixer": "7.1.2",
