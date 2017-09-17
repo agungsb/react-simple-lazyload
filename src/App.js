@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ReactSimpleLazyLoad } from './lib';
+import { ReactSimpleLazyLoad } from 'react-simple-lazyload';
 import './App.css';
 
 class App extends Component {
