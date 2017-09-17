@@ -1,12 +1,17 @@
 {
   "name": "react-simple-lazyload",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-resolver": "^1.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-remove-console": "^6.8.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-plugin-webpack-alias": "^2.1.2",
     "babel-preset-react-app": "^3.0.2",
     "babel-runtime": "6.26.0",

@@ -4,6 +4,11 @@
     "react-app",
     "es2015"
   ],
+  "plugins": [
+    "add-module-exports",
+    "transform-runtime",
+    "transform-class-properties"
+  ],
   "env": {
     "test": {
       "plugins": [
