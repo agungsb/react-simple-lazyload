@@ -1,5 +1,5 @@
 {
   "private": true,
-  "name": "react-simple-lazyload",
+  "name": "ReactSimpleLazyLoad",
   "main": "./ReactSimpleLazyLoad.js"
  }

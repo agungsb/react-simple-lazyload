@@ -1,6 +1,6 @@
 {
   "name": "react-simple-lazyload",
-  "version": "0.2.4",
+  "version": "0.2.1",
   "main": "./lib/index.js",
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -38,7 +38,7 @@
     "react": "^15.6.1",
     "react-dev-utils": "^4.0.1",
     "react-dom": "^15.6.1",
-    "react-simple-lazyload": "0.2.2",
+    "react-simple-lazyload": "0.2.1",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
@@ -57,7 +57,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "NODE_ENV=production node scripts/build.js",
-    "lib": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files --presets=es2015,react,stage-0 --plugins=add-module-exports,transform-class-properties",
+    "lib": "babel src/node_modules --out-dir lib --copy-files",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
