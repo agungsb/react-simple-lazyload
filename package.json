@@ -1,6 +1,6 @@
 {
   "name": "react-simple-lazyload",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
@@ -54,8 +54,8 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "lib": "babel src/node_modules --out-dir lib --copy-files",
+    "build": "NODE_ENV=production node scripts/build.js",
+    "lib": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
