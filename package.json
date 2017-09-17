@@ -1,8 +1,8 @@
 {
   "name": "react-simple-lazyload",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "main": "./lib/index.js",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
@@ -46,9 +46,7 @@
     "webpack": "3.5.1",
     "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
-    "whatwg-fetch": "2.0.3"
-  },
-  "devDependencies": {
+    "whatwg-fetch": "2.0.3",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
