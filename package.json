@@ -1,6 +1,6 @@
 {
   "name": "react-simple-lazyload",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "./lib/index.js",
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -57,7 +57,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "NODE_ENV=production node scripts/build.js",
-    "lib": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files --plugins=add-module-exports,transform-runtime,transform-class-properties",
+    "lib-old": "NODE_ENV=production BABEL_ENV=production babel src/node_modules --out-dir lib --copy-files --plugins=add-module-exports,transform-runtime,transform-class-properties",
+    "lib": "NODE_ENV=production BABEL_ENV=production babel src/ReactSimpleLazyLoad --out-dir lib --copy-files --plugins=add-module-exports,transform-runtime,transform-class-properties",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
