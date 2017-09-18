@@ -56,11 +56,20 @@ Type: Object Default: undefined IsRequired: false
 
 Pass custom styles as props.
 
+### usecssmodules
+Type: Bool, Default: false IsRequired: false
+
+Set to true if you are using CSS modules.
+
 ### alt, onError, etc.
 
 Type: Any Default: undefined IsRequired: false
 
 The rest of `image's` element attributes.
+
+## Component Styles
+
+You can find the styles in `lib/components/ReactSimpleLazyLoad/ReactSimpleLazyLoad.css` and insert it to your project. Or if you are already using `CSS Modules`, you can pass `usecssmodules` props to the component.
 
 
 ## License
