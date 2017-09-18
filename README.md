@@ -15,7 +15,7 @@ import { ReactSimpleLazyLoad as Image } from 'react-simple-lazyload';
 
 const App = () => {
   return (
-    <div className="whatever-container>
+    <div className="whatever-container">
         <Image 
           alt="Tiger"
           full="tiger.jpg" 
